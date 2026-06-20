@@ -39,7 +39,7 @@ function UsersPage() {
     toast.success("Rôle ajouté"); load();
   };
   const revoke = async (uid: string, role: string) => {
-    const { error } = await supabase.from("user_roles").delete().eq("user_id", uid).eq("role", role);
+    const { error } = await supabase.from("user_roles").delete().eq("user_id", uid).eq("role", role as "admin" | "employee" | "super_admin");
     if (error) return toast.error(error.message);
     toast.success("Rôle retiré"); load();
   };
