@@ -109,7 +109,7 @@ function Index() {
       <footer id="contact" className="border-t border-border">
         <div className="mx-auto max-w-7xl px-6 py-10 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
           <div>© {new Date().getFullYear()} Suiss Ferme Limited — Douala, Cameroun</div>
-          <div>Contact : +237 6 XX XX XX XX · contact@suissferme.cm</div>
+          <div>Contact : +237 6 52 02 34 90 · contact@suissferme.cm</div>
         </div>
       </footer>
     </div>
